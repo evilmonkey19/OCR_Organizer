@@ -1,0 +1,91 @@
+ 
+
+user a Circuits i Sistemes Lineals — Examen Final
+has BCN] de Telecomunicació de Barcelona 31 de malg de 2016, de 11:15h a 14:15h
+
+ 
+
+ 
+
+ 
+
+ 
+
+UNIVERSITAT POLITÉCNICA DE caTaLunya | Notes provisionals roo. .... 15 de juny de 2016
+— Departament de TSC — Període d'allegacions ............ 15-16 de juny de 2016
+Notes definitiveS........o.ooo.oooooo.. 18 de juny de 2016
+
+ 
+
+Professors: J.García, O.Mas, O.Muñoz i M.Sanz  Durada: 3h  Consultes sobre l'examen: 17 de juny de 2016
+
+ 
+
+P1. (3,5 punts) En la figura 1 es representa l'espectre del senyal captat per una antena en la banda de freqiiéncies
+corresponents a les emissions en freqiiéncia modulada (FM) a la localitat de Saskatoon (Canada). Cadascun dels 7 pics
+correspon a una emissora particular, de la qual es destaca la fregiiéncia d'emissió (en MHz).
+
+FM Spectrum 95 1
+
+  
+
+> MHZ
+88.3 108.3
+
+ 
+
+Figura 1: Espectre del senyal captat per l'antena
+
+a) Suposant que volem seleccionar l'emissora de 91,7 MHz amb un filtre passa-banda, indiqueu quin O haurá de
+tenir aquest filtre si ha de tenir una amplada de banda igual al de l'emissió FM que volem capturar, la qual
+típicament és de 150 kHz.
+
+Ates que el O del filtre surt elevat (superior a 500) será difícil realitzar-lo amb un filtre LC passiu convencional, i caldrá
+recórrer a altres técniques. Una d”elles és la que es mostra a la figura 2, en la qual s'ha afegit al filtre passa-banda una
+font controlada 1 una resisténcia R,..
+
+R R
+
+eq X,
+
+ 
+
+ 
+
+ 
+
+Figura 2: Model simplificat del circuit captador
+
+ 
+
+ 
+
+ 
+
+ 
+
+b) Demostreu que la funció de xarxa del circuit, H(s) = On es pot posar de la forma segiient:
+g
+kt s
+Ro¿C
+H(s) = 2
+24 1/1 ,1k 1
+"+ (eo) s+
+
+c) Prenent C=3pF, L = 1H, R¿, = 13,3kQ 1 k = 30, determineu a quin valor caldria ajustar el resistor R, per
+tal d'aconseguir el factor de qualitat desitjat. Fet aix0, calculeu 1”amplificació máxima del circuit, H ,,,..
+
+d) Suposant que el senyal emés per cada emissora és sinusoidal, i que en captar-lo ens arriba amb les amplituds
+que es mostren a la taula, ompliu l'esmentada taula amb els valors que falten.
+
+ 
+
+f IVA (pic) 1HG2f)I VI (pic)
+
+91,7MHz  4,.02mV
+929MHz | 7,5mV
+
+ 
+
+ 
+

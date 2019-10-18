@@ -1,0 +1,78 @@
+ler Control Arquitectura de Computadors Curs 2018-2019 Qi
+
+ 
+
+COGNOMS:
+
+ 
+
+ 
+
+ 
+
+ 
+
+NOM: DNI/NIE:
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+IMPORTANTE leer atentamente antes de empezar el examen: Escriba los apellidos, el nombre y el DNI/NIE antes de
+empezar el examen. Escriba un solo carácter por recuadro, en mayúsculas y lo más claramente posible. Es importante
+que no haya tachones ni borrones y que cada carácter quede enmarcado dentro de su recuadro sin llegar a tocar los
+bordes. Use un único cuadro en blanco para separar los apellidos y nombres compuestos si es el caso. No escriba fuera
+de los recuadros, todo lo que haya fuera de ellos es ignorado. La identificación del alumno se realiza de forma
+automática, no seguir correctamente estas instrucciones puede comportar no tener nota.
+
+Problema 1. (5 puntos)
+
+En un ordenador en el que tenemos instalado el entorno usado en el laboratorio de AC, hemos medido que un programa
+de 1000 instrucciones ensamblador se ha ejecutado en 3 segundos usando 9x10* ciclos y ha ejecutado 4,8x10?
+instrucciones enteras y además 2,4x108 operaciones de coma flotante que, debido a la falta de hardware específico,
+ejecutan 10 instrucciones cada una.
+
+a) Calcula el CPI del programa y la frecuencia de la CPU (usa el prefijo del sistema internacional más adecuado).
+
+ 
+
+ 
+
+b) Calcula los MIPS y MFLOPS a los que se ejecuta el programa.
+
+ 
+
+ 
+
+ 
+
+ 
+
+El tiempo de ejecución usado en el primer apartado se corresponde al tiempo de CPU (usuario + sistema). Usando el
+comando “time” de linux hemos obtenido que el tiempo de CPU representa solo el 20% del tiempo total del programa
+(wall time). El 80% restante es tiempo de entrada/salida (accesos al disco duro concretamente). Se lo comentamos a
+nuestro proveedor y nos ofrece cambiar el disco duro por un disco SSD que, asegura, nos ofrece una ganancia del
+79900%. Hemos medido que cada acceso al disco duro actual del sistema tarda 8 milisegundos.
+
+c) Calcula el tiempo medio de cada acceso a la SSD.
+
+ 
+
+ 
+
+d) Calcula la ganancia total en el programa que se obtendría con el cambio de tipo de disco.
+
+ 
+
+ 
+
+ 
+
+ 
+

@@ -1,0 +1,67 @@
+CALCUL VECTORIAL ETSETB 10 de gener de 2017
+TEMPS: 3h
+PUBLICACIÓ DE NOTES PROVISIONALS: 16 de gener de 2017
+AL-LEGACIONS: del 16 al 17 de gener de 2017
+JUSTIFIQUEU TOTES LES RESPOSTES
+
+1. Considereu la funció h(x,y) =!In(1 + 2? + y) + 2y + a?y on a és un parámetre real.
+y
+
+(a)
+
+(b)
+
+(c)
+
+Per a quins valors del parámetre a Vequació h(x,y) = 0 defineix y com a funció implícita
+de x de classe C, en un entorn de l'origen? Pot definir la mateixa equació en un entorn
+de l'origen a x com a funció implícita de y per algun valor d'a?
+
+Siguin y = f(x), la funció implícita de l'apartat anterior, definida en un entorn de 0 que
+anomenem U CR, iF(x,y) = (er+Y + a? — 1,e/() 4 ycos(x) — 1), definida en U x R.
+Demostreu que F admet funció inversa de classe C en un entorn de (0, 0).
+
+Demostreu que G = Fo F + F7! és de classe C en un entorn de (0, 0) i calculeu la seva
+diferencial en (0, 0).
+
+2. Sigui f : R? —> R la funció definida per f(x, y, 2) = 1? + y? — 21.
+
+(a)
+(b)
+
+3. (a)
+(b)
+4. (a)
+
+Calculeu els punts crítics de f. Qué en podem deduir del seu carácter a partir del criteri
+de Silvester. Digueu si són extrems locals o punts de sella.
+
+Considereu la regió
+D=((=,y, 2) ER |1a*+y+2<1,2>0).
+Raoneu que f té extrems absoluts a D i calculeu-los.
+
+Calculeu el volum limitat per les superfícies 2 =1— a? — 3y? i2=0.
+
+Calculeu el volum limitat per les superfícies 2 = 1— 2? —3y? iz= ax? — y.
+
+Donat el camp vectorial definit per f(x, y, 2) = (x, y, 22).
+1. Determineu si és un camp conservatiu. En cas afirmatiu, trobeu el seu potencial escalar.
+
+ii. Calculeu la circulació de f al llarg d'un camí que uneix els punts (1, 0,0) i (0, 0, 1) sobre
+la corba determinada per les equacions
+
+a+ y422=1
+a+y+z=1l
+
+2
+
+Considerem ara el camp vectorial f(x, y, 2) = (yz?, 1?z, z) i la corba C determinada per les
+
+equacions
+a+y+22=1 )
+z=1/2
+i. Calculeu la circulació del camp f al llarg de la corba C.
+ii. Per a la superfície S =[(2,y,2 : 12+y?+2?=1, 2 =1/2)), calculeu el flux de rotf
+a través de S i indiqueu l'orientació escollida.
+iii. Trobeu el flux de f a través de la superfície 1? + y? + 22 =1.
+

@@ -1,0 +1,82 @@
+ 
+
+E A Circuits i Sistemes Lineals —- Examen Final
+a) E Escola Técnica Superior d'Enginyeria
+BCN| de Telecomunicació de Barcelona 19 de gener de 2018 de 08:00h a 11:00h
+
+ 
+
+ 
+
+ 
+
+ 
+
+UNIVERSITAT POLITÉCNICA DE caTaLuNYa | Notes provisionals ................. 24 de gener de 2018
+— Departament de TSC — Període d'allegacions............ 24-25 de gener de 2018
+Notes definitiveS..........ooo.o..o.... 26 de gener de 2018
+
+ 
+
+Professors: N.Duffo, J.García, O.Mas i M.Sanz Durada: 3h Consultes sobre l'examen: 25 de gener de 2018
+
+ 
+
+P1. (a punts) Es vol implementar un filtre amb el circuit que es mostra a la
+
+R
+AMM
+
+o HA
+
+Ca
+R
+vi o— A > v
+Ho Vo
+
+ 
+
+ 
+
+ 
+
+ 
+
+Figura 1: Filtre escollit.
+
+Es demana:
+
+a) Estudieu el seu comportament asimptotic i digueu de quin tipus de filtre es tracta.
+
+b) Determineu la funció de xarxa H(s) = 70) en funció de R, Cy i Ca.
+
+c) Si fixem el valor de R = 1k0, trobeu els valors de les capacitats C¡ i Cz que calen per tal que el filtre presenti
+els segitents parámetres: wy = 10 krad/si é = 0,05.
+
+d) Dibuixeu el diagrama de pols i zeros de la funció de transferencia.
+
+e) Dibuixeu el diagrama de Bode de guany, indicant les asímptotes, les correccions a les freqiiéncies de colze i
+esbossant el millor possible la corba real. Utilitzeu rad/s com a unitat de freqiéncia a P'eix d'abcisses.
+
+Solució:
+a) Per a continua (freqúencia zero), el circuit equivalent seria el de la S'observa que V, = 0, essent
+
+[H(0)| = 0
+
+E
+
+ 
+
+ 
+
+ 
+
+Figura 2: Circuit equivalent en contínua
+
+Per a altes freqúencies, el circuit equivalent és el que apareix a la figura 3 Per tant es troba
+
+¡H(0o)| = 0
+
+Com que no deixa passar ni les altes ni les baixes freqúéncies, es pot deduir que només deixará passar les
+freqúencies mitges, tractant-se d'un filtre passa-banda
+

@@ -1,0 +1,70 @@
+CALCUL VECTORIAL ETSETB 20-06-2016
+TEMPS: 3h
+PUBLICACIÓ DE NOTES PROVISIONALS: 25 de juny de 2018
+AL-LEGACIONS: 27 de juny de 2016
+JUSTIFIQUEU TOTES LES RESPOSTES
+TOTS ELS PROBLEMES PUNTUEN IGUAL
+
+1. Considereu la funció f : R? > R definida per f(x, y) = |x|y.
+
+(a) Raoneu que f és contínua a R? ¡i de classe C% a R2A 4x2 = 0).
+
+(b) Donat yo € R, calculeu les derivades parcials de f en (0, yo). Pot ser f diferenciable en el
+punt (0, Yo) si yo 4 0?
+(c) Proveu que f és diferenciable en (0, 0).
+
+2. Considereu la corba parametrizada y : R > R? i la funció f : R? —R definides per
+
+t 2
+t)= | ——, —— = 4y? — da? — dy +1
+y (t) (+ 2 1 2). Fu,y) = 4y zx y+l,
+
+el punt P= (V2/4,(V2+2)/4) i to =1+ 2 . Es compleix que y(to) = Pi f(P) =0.
+
+(a) Proveu que y és una corba parametritzada regular en tots els seus punts. Calculeu la recta
+tangent a y en y(to).
+
+(b) Proveu que l'equació f(x, y) = 0 defineix implícitament una corba regular en tots els seus
+punts excepte, potser, a (0,1/2). Calculeu la recta tangent a aquesta corba en el punt P.
+
+(c) Les corbes dels apartats anteriors s'intersequen a P. Calculeu angle d'intersecció entre les
+dues corbes en P (es a dir, angle que fan les seves respectives rectes tangents en P).
+
+3. (a) Calculeu els punts crítics de f(x, y, 2) = 1? — 3x — yz i estudieu-ne el seu carácter.
+
+(b) Raoneu que g(x,y,z) = xy + z té extrems absoluts a la regió D =[f0< 2 <4-—a?- y?).
+Trobeu-los.
+
+4. (a) Calculeu f, f on f(=,y,2) =1xyiD=(0<2<4-a2%—y?,1>0,y>0)
+
+(b) Calculeu el volum de la regió tancada per les gráfiques de les funcions f(x, y) =1+2xy —
+a? —y? ig(x,y) = 2x4, és a dir, el volum de la regió [(x,y,z) ER? | g(2,y) < 2< f(2,y)).
+
+5. (a) Considereu el camp vectorial f(x, y, 2) = (—y+2%y, 1+2%x, 24+221y) i les corbes y, = [a?+
+y =1,2=0,2>0) iy =(y?+2=1, 2=0, 2 > 0) (són dues semicircumferéncies).
+Calculeu ¿, f - dl, indicant amb quina orientació esteu calculant la integral. Llavors, fent
+servir el teorema de Stokes de forma adient, calculeu L, f dl, indicant amb quina orientació
+esteu calculant la integral.
+
+(b) Considereu el camp vectorial g(x,y,2) = (2% + 22y,y? + 222,2 + 22y) i la superfície
+S =4(2,y,2) € RE | 1?+y?4+2?= 1, z > 0), orientada amb la normal cap amunt.
+Calculeu, fent servir el teorema de Gauss de forma adient, S $848.
+
+ 
+
+Resolució.
+
+1. (a) Com f,(2) = |x| i fa(y) = y són contínues a R, f(x2,y) = f(x) f2(y) és contínua a IR?. A
+més, com fi(1) =xw,six>01 fila) =-—x=,six<0, fi és CS aRA(O). fo és CS aR.
+Per tant, f = fi f2 és C a (RA1(0J) x R=R?1 Lx = 0).
+
+(b) Primer calculem la derivada respecte a y:
+
+2 00.0) — tim Z/00 +) — $(0,90) — y
+
+0
+= lim =
+Oy t>0 t t>0 t
+
+=0.
+

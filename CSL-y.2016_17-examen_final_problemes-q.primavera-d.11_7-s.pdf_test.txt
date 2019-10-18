@@ -1,0 +1,120 @@
+ 
+
+E a Teoca curonond Enainyóna Circuits i Sistemes Lineals - Examen REAV
+las MAT MO ESE 11 de juliol de 2017, de 08:00h a 11:00h
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+UNIVERSITAT POLITÉCNICA DE CATALUNYA | Notes provisionals ..........ooocoomomoco... 17-07-2017
+— Departament de TSC — Període d'allegacions........ de 17-07-2017 a 18-07-2017
+Notes OSÍINTIVES «0o ronca nro 19-07-2017
+Professors: Núria Duffo, Jorge García, Orestes Mas, Olga Muñoz i Margarita Sanz Durada: 3h
+
+Consultes sobre l'examen: 18-07-2017
+
+ 
+
+Pl. (Q punts) Donat el circuit de lafigura 1] es demana:
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+C
+ll
+tU a) Dibuixeu el seu esquema circuital tant per baixes com
+R, per altes freqiiencies i justifiqueu el tipus de filtrat que
+NW realitza el circuit.
+Rj a ., Vols)
+Vin(t) WWW || b) Calculeu la seva funció de xarxa, H(s) = nt
+
+ 
+
+ 
+
+c) Comproveu que en aquest circuit es compleix que l'am-
+plificació máxima és 2Q?, essent Q el factor de qualitat
+del filtre.
+
+ 
+
+Figura 1: Circuit sota estudi
+Solució:
+
+a) Ala s'han dibuixat els circuits per a baixes i altes freqiiéncies
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+o o
+R) R)
+AM AM
+R; R;
+Vinl[t) —AM—= o Vin() —WW
+(a) Circuit a baixes freqiiencies (b) Circuit a altes freqiiencies
+
+Figura 2: Circuit sota estudi a altes i baixes freqiiéncies
+
+Concretament a baixes freqiiéncies s'observa que els camins entre entrada i sortida queden tallats, per la qual
+cosa, concloem que la tensió de sortida a baixes freqiiéncies será nul-la. D'altra banda, a altes freqiiencies la
+tensió de sortida del circuit será igual a la tensió a lentrada inversora de PAO a causa del curtcircuit que
+s'ha format amb els dos capacitors i, com que la tensió a lentrada inversora és igual a zero pel curtcircuit
+virtual, la sortida també en aquest cas será nul-la.
+
+Així doncs, estem davant d'un circuit corresponent a un filtre passa-banda, atés que el máxim d'amplifica-
+ció s'haurá de donar a alguna freqiiencia intermitja.
+
+b) Per trobar la funció de xarxa, primer es transforma el circuit al domini de Laplace i analitza el circuit
+resultant (figura 3). Triant el métode Nodal per fer l'análisi, s'han de plantejar els KCL's als nodes 21 3, el
+que ens porta al segiient sistema d'equacions:
+
+2C0s+6j =€s G a ln
+Cs —G,»
+
+Resolent llavors el sistema d'equacions per determinar V, en funció de V;,, queda
+

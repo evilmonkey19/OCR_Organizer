@@ -1,0 +1,78 @@
+CÁLCUL VECTORIAL  ETSETB 20-01-2016
+TEMPS: 3h
+PUBLICACIÓ DE NOTES PROVISIONALS: 25 de gener de 2016
+AL-LEGACIONS: 25 de gener de 2016
+JUSTIFIQUEU TOTES LES RESPOSTES
+
+1. Considercu, per a «+ > 0, la funció f(x, y) = (1? + y?)”.
+
+(a)
+
+(b)
+(c)
+
+0
+Per a quins valors de a > 0 existeixen LO, 0) i Lo, 0)? Calculeu aquestes derivades
+: y
+
+quan existeixin.
+
+Per a quins valors de a > 0 és f diferenciable en (0, 0)?
+
+Proveu que la funció zf(z, y) és diferenciable a (0,0) per a qualsevol a > 0 i calculeu la
+seva diferencial en (0, 0). E
+
+2. Signi C la corba definida implícitament per les equacions
+
+(a)
+
+(b)
+(c)
+
+A+y-2=0.
+
+An
+
+Estudicu al voltant de quins punts de C' es pot assegurar que hi ha una parametrització de
+la corba de la forma»3(z) = (1(2), y(2), 2). Raona la resposta enunciant el teorema en que
+cs basa.
+
+Estudieu al voltant de quins punts de C es pot assegurar que existeix una parametrització
+regular de la corba.
+
+Troba la recta tangent a C en el punt (1,0, 1).
+
+3. Sigui f : R? > R la funció definida per
+
+(a)
+(b)
+
+f(x,y) = 1* + y? - 2x4.
+
+Calcula i classifica els punts crítics de f.
+
+Consideren el conjunt
+A=((2,y) ER? | 1? < y < 22).
+
+Raoneu que f té extrems absoluts en A. Calculeu el valor dels extrems absoluts i on
+
+s'assoleixen.
+
+4. Considereu la regió D = ([(2,y,2) € R3 | 1? +y?+2?<1, 2? + y? — 2 < 1) i les superfícies
+
+St=((2,y 2) ER” | 2+y42?=1,02+y-2<1),
+S=((11y2eR | a+y42<1.a+y?-2=1).
+
+(Observeu que 9D = S* US”). Considereu també f(x, y, 2) = (1, y — 21.2 + 14).
+
+Calculeu el volum de D.
+
+Calculeu f¿, f -dS. amb S* orientada amb la normal cap amunt.
+
+Fent servir el teorema de Gauss i els apartats anteriors, calculeu Lz- f-dS, amb S” orientada
+amb la normal cap amunt. Nota: si no us ha sortit algun. dels dos apartats anteriors,
+podeu deixar el resultat en funció del volum de D i del fluz de f sobre Sa
+
+Sigui Y = (St US7)N((2,y,2) ER? | -3/4< z < V3/2), orientada amb la normal cap
+a fora. Feu servir el teorema de Stokes per a calcular f7 rot f - dS.
+

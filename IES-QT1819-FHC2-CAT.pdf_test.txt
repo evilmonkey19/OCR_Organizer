@@ -1,0 +1,192 @@
+ 
+
+Introducció a lEnginyeria del Software --- 2a prova FHC QT18-19 --- 15-11-2018
+
+ 
+
+Considereu un sistema de contingut multimedia ofert per canals de subscripció. Els subscriptors a la plataforma
+defineixen diferents perfils amb que veuran els continguts via streaming. El sistema enregistrará la data d'últim
+visionat que un perfil ha fet d'un contingut, així com la seva puntuació i comentaris. Els subscriptors premium tenen la
+possibilitat de descarregar els continguts premium de la plataforma als seus dispositius, peró només poden
+descarregar-se un mateix contingut com a máxim tres cops.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+<<enumeration>>
+ContingutVisionat TPuntuació
+dataÚltimVisionat : date dolent
+puntuació : TPuntuació normal
+comentaris : string bo
+ó excel lent
+1
+I
+I
+Contingut
+Subscriptor Perfil |
+usuari : string + nom : string . 1 . títol : string . 4,9 Categoria
+: ¿ strii 1 . . :
+: media : bina nom : string
+dataAlta : date adult : boolean e És
+, . duracio : time
+iban : string
+adult : boolean
+1 Data z
+, date : date
+[ incomplete ) [ incomplete )
+0..3
+SubscriptorPremium | + » | ContingutPremium
+x/ preu : float
+I
+I
+ContingutDescarregat <<enumeration>>
+plataforma : TPlataforma TPlataforma
+Android
+¡OS
+Windows
+Mac
+
+ 
+
+ 
+
+ 
+
+Restriccions Textuals
+
+Claus externes: (Subscriptor, usuari), (Contingut, títol), (Categoria, nom), (Data, data)
+
+Un subscriptor no pot tenir dos perfils amb el mateix nom.
+
+Un perfil no adult no pot visionar contingut adult
+
+La data de visionat d'un contingut ha de ser posterior a la data d'alta del subscriptor del perfil de visionat
+
+O h UD
+
+La data de descárrega d'un contingut ha de ser posterior a la data d”alta del subscriptor
+
+El sistema a desenvolupar no pot modificar les dades de Categoria, Contingut, ContingutPremium, 1 Data, ja que
+existeix un altre sistema que les gestiona. El sistema ha de permetre efectuar les segijents funcionalitats:
+
+Alta de Subscriptor: Quan un usuari vol inscriure”s a la plataforma ell mateix introdueix el seu nom d”usuari 1 el seu
+IBAN. A més, indica si vol accedir al contingut premium. Una vegada donat d'alta, l”usuari crea diferents perfils, tot
+indicant-ne el seu nom 1 si podrá accedir a contingut adult. Feu que la interacció necessária per dur a terme aquesta
+funcionalitat requereixi dos esdeveniments.
+
+Visionat de Contingut: Quan un perfil de subscriptor realitza un visionat d'un contingut, introdueix al sistema les
+dades necessáries per fer-ho. Si el perfil de subscriptor ja havia visionat aquest contingut anteriorment, aleshores les
+dades d'aquest últim visionat sobreescriuen les anteriors. Altrament, es crea una instáncia de la classe
+ContingutVisionat amb les dades corresponents. Aquesta funcionalitat no es pot portar a terme si la data de visionat és
+anterior a la data d'alta del subscriptor del seu perfil. Feu que la interacció necessária per dur a terme aquesta
+funcionalitat requereixi un únic esdeveniment.
+
+Categories Exitoses: Quan un administrador vol consultar els continguts més exitosos en un període de temps, indica
+al sistema les dates d'inici i fi de la consulta. El sistema retorna, per a cada contingut amb més de 5 descarregues
+efectuades entre les dues dates (incloses): el títol del contingut, els noms de les seves categories 1 el preu total
+

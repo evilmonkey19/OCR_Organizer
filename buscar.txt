@@ -1,0 +1,6 @@
+Castellano Catalan
+Arquitectura de Computadores; AC
+Introducció a l'Enginyeria del Software; IES
+Circuits i Sistemes Lineals; CSL
+Cálcul Vectorial; CAVEC
+Fluid Mechanics; FM

@@ -1,0 +1,83 @@
+ 
+
+a O Circuits i Sistemes Lineals - Examen Final
+2) com Escola Técnica Superior d'Enginyeria .
+Das BCN] de Telecomunicació de Barcelona 5 de juny de 2018 de 11:15h a 14:15h
+
+ 
+
+ 
+
+ 
+
+ 
+
+UNIVERSITAT POLITECNICA DE caTaLUNYA | Notes provisionals................... 14 de juny de 2018
+— Departament de TSC — Període d'allegacions ............. 14-15 de juny de 2018
+Notes definitives ..........ooo.ooooo... 18 de juny de 2018
+
+ 
+
+Professors: N.Duffo, J.García, O.Mas i O.Muñoz Durada: 3h Consultes sobre l'examen: 15 de juny de 2018
+
+ 
+
+ 
+
++ Escolliu únicament 3 dels 4 problemes proposats. Feu l'entrega en fulls separats.
+
++ En cas que NO entregueu algun dels 3 problemes, entregueu un full en blanc en lloc seu.
+
+ 
+
+ 
+
+P1. (10 punts) Els estudis científics han demostrat que la nostra oida no percep totes les freqiiéncies amb la mateixa
+intensitat encara que P'altaveu les emeti totes amb igual amplitud. Concretament, sentim molt bé els tons mitjos
+(banda compresa entre 300 i 3000 Hz) pero fora d'aquesta banda percebem els sons amb una atenuació entre 14 i
+20 dB. Aquest efecte és especialment notable quan el volum és baix i, com a resultat, l'experiencia auditiva no és tan
+satisfactoria.
+
+Per tal de contrarestar aquesta deficiencia, una opció és utilitzar un circuit equalitzador que compensi la poca
+sensibilitat de la nostra oida a freqúencies fora de la banda central. El diagrama de Bode de la esquematitza
+la resposta freqiencial que hauria de tenir el circuit desitjat.
+
+(a) Diagrama asimptotic de guany (b) Céllula básica
+
+ 
+
+20 P O TTTTTTT e TPTTTTT OIT
+
+Guany [dB]
+
+o volt)
+
+ 
+
+ 
+
+ 
+
+103 101 107
+
+ 
+
+  
+
+Freqúencia [Hz]
+Figura 1: Elements del circuit equalitzador.
+Es demana:
+a) Identifiqueu les freqúencies de colze i calculeu els pendents p; i p, de la característica asimptótica.
+b) Dibuixeu el diagrama de pols i zeros del filtre, indicant clarament el valor i multiplicitat de cada arrel.
+c) Feu un esbós de la corba de guany real, detallant el valor de les correccions a les freqijéncies de colze.
+
+d) Calculeu una possible funció de xarxa, H(s), de lequalitzador desitjat. Comproveu la coherencia del resultat
+obtingut analitzant el comportament a freqúencies baixes i altes.
+
+e) Determineu la funció de xarxa H;(s) de la célula básica de la i preneu-la com a base per dissenyar un
+circuit que implementi la funció de xarxa trobada a l'apartat anterior, amb la restricció que només disposem
+de capacitors de 1nFi 10nF.
+
+f) Si a Pentrada de Pequalitzador s'aplica un senyal Vglt) = 1,41 cos (2760 t) + cos (2710.000 £), calculeu i repre-
+senteu detalladament lP'espectre d'amplitud del senyal de sortida, v,(t).
+

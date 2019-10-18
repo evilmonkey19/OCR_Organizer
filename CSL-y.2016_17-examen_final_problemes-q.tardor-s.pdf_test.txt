@@ -1,0 +1,92 @@
+ 
+
+E E Circuits i Sistemes Lineals — Examen Final
+DE Escola Técnica Superior d'Enginyeria
+MX [19]
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+SS loli 12 de gener de 2017 de 08:00h a 11:00h
+UNIVERSITAT POLITECNICA DE caTaLUNYA | Notes provisionals ................. 20 de gener de 2017
+— Departament de TSC — Període d'allegacions ........... 20-22 de gener de 2017
+Notes definitiveS..........o.o.o.o.ooo.. 24 de gener de 2017
+Professors: J.García, O.Mas i M.Sanz Durada: 3h Consultes sobre l'examen: 23 de gener de 2017
+
+ 
+
+P1. (8 punts) En aquest exercici es tracta d'esbrinar quin és el circuit muntat a la figura 1]i fer un estudi del seu
+comportament fregiiencial.
+
+da GND a Ss
+EJ 1
+Generador |
+JE E ES
+
+Oscil-loscopi
+
+MN
+dE *
+
+ 
+
+ 
+
+ 
+
+e. ll... mn. ...o.
+
+ALO as > > > > a >
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Figura 2: Patillatge TLO82
+
+En aquest sentit 1 tenint en compte que R; = 10kQ, R), = 100kQ, Rz = R¿ = 1kQ 1 C, = C, = C,4 = 100nF, es
+demana:
+
+a) Dibuixeu l'esquema circuital corresponent al muntatge de la
+
+b) Demostreu que la funció de xarxa, H(s) = En és
+g
+
+ 
+
+0 s+10?
+190= 0 1006 + 105 o
+
+c) Representeu el seu diagrama de Bode de guany amb detall (asimptótic i amb correcions).
+
+d) A la vista del resultat digueu de quin tipus de filtrat fa el circuit 1 doneu els seus parámetres (guany máxim 1
+freqiiéncia de tall en rad/s).
+
+e) Suposant que a l1'entrada del circuit s'aplica una excitació de la forma
+vy(1) = 0,25 — 0,5 sin(10*) (2)
+
+dibuixeu amb precisió l'espectre d'amplitud dels senyal d”entrada, Uz(t), 1 de sortida, v,(t), del circuit.
+

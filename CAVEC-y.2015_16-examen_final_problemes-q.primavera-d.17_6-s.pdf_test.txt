@@ -1,0 +1,56 @@
+CÁLCUL VECTORIAL ETSETB 17-06-2016
+TEMPS: 3h
+PUBLICACIÓ DE NOTES PROVISIONALS: 20 de juny de 2016
+AL-LEGACIONS: 20 de juny de 2016
+JUSTIFIQUEU TOTES LES. RESPOSTES
+TOTS ELS PROBLEMES PUNTUEN IGUAL
+
+1. Sigui C CR? el conjunt dels punts del pla que satisfan l'equació a3 — 3x*y + y? =0.
+
+(a) Estudieu en quins punts de C' es compleixen les condicions del teorema de la funció implícita.
+(b) Determineu els punts al voltant dels quals l'equació ens permet expressar y en funció de z.
+
+(c) En quins dels punts trobats a l'apartat anterior la funció y = y(x) definida al seu voltant
+presenta un punt crític?
+
+(d) Estudieu el carácter (máxim, mínim) d'aquests punts crítics.
+
+2. Siguin f(x, y) = 41? + 4y? —-4xiD=((2,y) ER? ]a?+y?<1, (1-1) +y*<1).
+(a) Raoneu que D és un conjunt compacte. Podem assegurar que f té extrems absoluts a D?
+
+(b) Trobeu els punts crítics de f a D. Estudieu-ne el seu carácter.
+
+(c) Trobeu, mitjancant el métode dels multiplicadors de Lagrange, els extrems condicionats de
+f a la frontera de D.
+
+(d) Digueu quan valen el máxim i el mínim absoluts de f a D i on s'assoleixen.
+
+3. Questions breus d'integració.
+
+(a) Siguin D=((2,y) ER? |122+y2<1,y>0, 2-y>0) i f(2,y) = 1/1? + y?. Calculeu
+
+/ f(z,y) drdy.
+D
+
+(b) Calculeu f,, f, on f(x,y,2) =1 yx? +y?* +2? i
+
+V=1f(2,y, 2) €R | 2?+y?+22<R?,2>0, y >0, z > 0).
+
+(c) Sigui g : R +R una funció contínua tal que fas g = 2. Calculeu
+/ g(x +y)g(x —y)drdy, Q=((2,y) ER”|-1<x+y<1, -1<x-y<1)
+Q
+
+4. Qiiestions breus d'integració sobre corbes i superfícies.
+
+(a) Al pla R? hi considerem dues corbes que uneixen els punts (a,a?) i (b,b?), on a < b.
+Concretament, la recta que uneix aquests punts i l'arc de la parábola y = 1? limitat per
+ells. Considerem a R? el camp vectorial f(x, y) = (—y/2, 2/2).
+
+i. Determineu la circulació del camp f al llarg de les dues corbes.
+ii. Relacioneu els valors obtinguts a l'apartat anterior amb l'área de la regió del pla limi-
+tada per les dues corbes.
+
+(b) Sigui g(z, y, 2) = (ze%?, sin(zx?), z + 1), un camp vectorial a R3, Calculeu, fent servir el
+teorema de Gauss de forma adient, f¿g-dS, on S = [(1,y,2) € R9 | 1?4+y?+2% =R”, 2 >
+0).
+

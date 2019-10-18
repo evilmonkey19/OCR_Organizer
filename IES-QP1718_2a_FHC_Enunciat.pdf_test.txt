@@ -1,0 +1,182 @@
+ 
+
+Introducció a Enginyeria del Software --- 2a prova FHC QP17-18 --- 3-05-2018
+
+ 
+
+Considereu un sistema per a la gestió de les festes organitzades per un consorci d'empreses. Una festa se celebra en un
+restaurant a una determinada data 1 per una empresa que l'organitza. Duna festa se”n conelx el seu tipus, les persones
+que l”organitzen 1 els seus participants, que poden haver pagat o no. Si una festa és del tipus sopar d'amics es coneixen
+les sales del restaurant que usa 1 si és una festa d'aniversari se sap la persona que fa anys i els anys que celebra.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Empresa TipusDeFesta
+Le Ofereix q*
+nom: String nom: String
+adreca: String preu: integer
+1
+Data
+. Organitza éTipus
+data: Date - Le
+$ . (subsets participant)
+M0 al organitzades organitzador
+e Festa > OrganitzadaPer Ls Persona
+horalnici: Integer nom: Strin
+Restaurant * , 4 _*]| dataNaixement: Date
+- participacions : participant
+nom: Stnng ,
+adrega:String : 1 homenatjada
+Assistent
+xi 1 (disjoint, incomplete) | :TipusDeFesta pagat: Boolean
+e
+4 +
+Sala Celebra
+número: Integer
+capacta! Intege A] SoparD'Amics Aniversari
+. edat Natura aniversanis
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1. Claus externes: (Empresa, nom); (TipusDeFesta, nom); (Data, data); (Restaurant, nom); (Persona, nom)
+
+2. Un restaurant no pot tenir dues sales amb el mateix número
+
+3. El tipus de festa d'una festa ha de ser ofert per l'empresa que organitza la festa
+
+4. Una persona no pot assistir a dues o més festes que se celebrin el mateix dia ¡ amb la mateixa hora d'inici
+
+5. La capacitat total de les sales usades per una festa SoparD'Amics ha de ser superior al número de participants a la festa
+6. Les sales usades per una festa SoparD'Amics han de ser del restaurant on se celebra la festa
+
+El sistema a desenvolupar no ha de donar d”alta les dades d'Empresa, de TipusDerFesta, de Persona ni de Data ja que
+existeix un altre sistema que les gestiona. En canvi, el sistema si que ha de permetre efectuar, les segúents
+funcionalitats:
+
+Alta de Restaurant: Quan el gerent del consorci vol donar d'alta un restaurant, introdueix al sistema tota la
+informació necessária per fer-ho. És a dir, la informació del restaurant i de totes les seves sales. Cal tenir en compte
+que caldrá crear les sales del restaurant sempre que sigui necessari. Aquesta funcionalitat només es podra dur a terme
+si el consorci té menys de 100 restaurants i tots els restaurants tenen com a máxim 5 sales. Feu que la interacció
+necessária per dur a terme aquesta funcionalitat requereixi com a mínim dos esdeveniments.
+
+Alta Festa d*Aniversari: Quan un administratiu vol donar d”alta una festa d'aniversari, introdueix al sistema tota la
+informació necessaria per fer-ho. És a dir, la informació de la festa d'aniversari, la dels seus organitzadors 1 la de la
+persona que hi celebra l'aniversari. Per a simplificar, suposarem que quan es crea la festa els únics assistents seran els
+seus organitzadors 1 la persona que celebra l”aniversari, 1 que tots hauran pagat. Cal tenir en compte que aquesta
+funcionalitat només es pot dur a terme si els organitzadors ni la persona homenatjada no són assistents d'una altra
+festa que se celebra el mateix dia a la mateixa hora.
+
+Consulta Aniversaris Estranys: Quan el gerent d'una empresa vol obtenir el llistat dels aniversaris estranys, ell
+mateix introdueix al sistema el nom de l'empresa. El llistat mostra, per cada festa d”aniversari que s”ha fet a
+Pempresa, tal que la festa té més de 30 assistents peró on la persona homenatjada no hi participa, la informació
+segúent: nom de la persona homenatjada i el nom dels organitzadors de la festa. Aquesta funcionalitat només es pot
+portar a terme si l'empresa ha organitzat com a mínim una festa de tots els tipus de festa que ofereix.
+
+Es demana que feu mitjancgant la notació UML:
+
+-Els diagrames de seqúencia 1 contractes en OCL de les operacions corresponents a les funcionalitats anteriors.
+

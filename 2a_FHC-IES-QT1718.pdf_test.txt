@@ -1,0 +1,193 @@
+ 
+
+Introducció a l'Enginyeria del Software --- Za prova FHC QT17-18 --- 20-11-2017
+
+ 
+
+Una clínica veterinaria está interessada en un sistema software per gestionar les operacions que fan als seus animals.
+L'esquema conceptual d'aquest sistema és el segúent:
+
+és especialista en
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Me
+Persona 1 és propietari de  * Animal a da
+nom : String propietari nom : String pertany a apa e
+població : String 09 |sexe: TSexe nom : String
+professió | (1 0 1 ¡Especie
+Veterinari mon
+e agressiu : boolean
+. numCal : int
+0..1
+. Data <<enumeration>>
+dataOp | data : Date TSexe
+: mascle
+s femella
+Operació
+horalnici : Time
+motiu : String Medicament
+Administrat
+dosi : String
+estat (1
+I
+OperacióFinalitzada 1
+exitosa : boolean Medicament
+horaFi : Time = 1 177] nom : String
+s'ha administrat
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Restriccions textuals
+
+1. Claus externes: (Animal, nom), (Persona, nom), (Veterinari, numCol), (Data, data), (Especie, nom), (Medicament, nom)
+2. Per cada operació finalitzada, horaFi > horalnici
+
+3. Un Veterinari no pot fer dues operacions que se solapin temporalment.
+
+El sistema a desenvolupar no ha de donar d'alta Veterinari, Especie, Medicament ni Data ja que hi ha un altre sistema
+encarregat de fer-ho. En canvi, ha de proporcionar les funcionalitats segúents:
+
+Alta Animal: Quan l'auxiliar de clínica vol donar d'alta un nou animal a la clínica, ell mateix introdueix la informació
+necessária per fer-ho. Es a dir, tota la informació requerida per a qualsevol animal. Si el propietari de l?animal no está
+registrat en el sistema, s'haurá de crear en aquell moment (peró no caldrá afegir-lo com a veterinari).
+
+Alta Operació Urgent: En els cas de les operacions urgents, aquestes són donades d'alta un cop ja han finalitzat. Per
+fer-ho, el veterinari indica al sistema totes les dades necessáries per crear una operació finalitzada. En aquest cas,
+podeu assumir que l'animal ja está donat d”alta al sistema. A més, aquesta funcionalitat només pot realitzar-se si el
+veterinari que realitza l?operació és especialista en lespécie de l'animal que opera. Feu que la interacció necessária
+per dur a terme aquesta funcionalitat requereixi més d'un esdeveniment.
+
+Consulta Gossos Perillosos no Esterilitzats: Podria ser el cas que l'auxiliar de clínica volgués consultar quins gossos
+agressius hi ha donats d'alta que no han estan sotmesos ni tenen programada una operació amb motiu “esterilització”,
+per tal de recomanar als seus propietaris que la facin. Per fer-ho, l”auxiliar indica el nom de la població al sistema. El
+sistema retorna una llista amb el nom del gos, el nom del propietari 1 un booléa indicant si aquest últim també és
+veterinari, per tots aquells gossos agressius tals que: el propietari del gos viu a la població indicada per parámetre, el
+gos no está esterilitzat (ni aquesta está programada), 1 el gos és mascle (en les femelles l”esterilització no millora
+Pagressivitat). Per poder dur a terme aquesta funcionalitat és necessari que hi hagi una persona com a mínim que
+visqui a la població indicada 1 que sigui propietária d'almenys un animal.
+
+Es demana que feu mitjangant la notació UML:
+
+-Els diagrames de seqiiéncia 1 contractes en OCL de les operacions corresponents a les funcionalitats anteriors.
+

@@ -1,0 +1,83 @@
+Cálculo vectorial 4 de julio de 2017
+
+1. Sea la función f : R? —, R definida por:
+
+1
+ay? cos == si (E, y) A (0, 0)
+
+Fx, y) > ne y
+0 si (x,y)=(0,0)
+
+(a) Estudiar la continuidad de f en R2.
+
+(b) Calcular las primeras derivadas parciales.
+
+(c) Estudiar si f es diferenciable y si es de clase C?.
+)
+
+(d) Calcular la ecuación del plano tangente a la gráfica de f en el punto correspondiente a
+1 1
+CE)
+2. Sean A= [lay 2): as, 0<2<1) y Noye)= 2 +ryrdrao
+
+(a) Estudiar el carácter de los puntos críticos de f en el interior de A.
+
+(b) Justificar la existendia de extremos absolutos de la función f en A y calcularlos.
+
+3. Calcular el volumen de la región:
+
+A=[(0,y 2): y <9, 24 y"<4)
+
+4. Sea A=([(2,y,2): a%+y?< 1, 0<2< 2-2 y) y sean S1, Sa y S3 superficies de R* definidas
+por:
+Si=4(0,y,2): 12+y?=1, 0<2<2-2-y)
+So=4(0,y,2): 12+y?<1, 2=0)
+Ss =1(a, pe): a+ y?<1, 2=2-—2x-—y)
+
+Consideremos además el campo vectorial f(x,y,2) =(12,2+Yy,1+Y+2).
+
+a? + y? = 1
+
+(a) Calcular $, fdl donde C es la curva definida por ¡ siga = Y
+
+(b) Calcular /
+
+rot fas, / rot fas y / rot fas. Indicar el sentido en que se han calculado los
+S1 Sa
+
+. 3
+flujos.
+
+(c) Indicar, si ha lugar, los teoremas de integración empleados al resolver el apartado anterior.
+
+ 
+
+Resolució
+
+1. (a) AR? ((0,0)) la funció 1/(1? + y?) és CS, perque és un quocient de funcions C% amb
+denominador no nul. Llavors f és CS a RA ((0,0)) perque hi és una composició i producte
+de funcions C2, En particular, hi és contínua.
+
+A (0,0) també és contínua perque
+
+< ley?] ———— 0.
+
+0< |f(x, y) — £(0,0)| = |zy*| (2.4) >(0.0)
+
+ 
+
+COS ==
+q? «L y?
+
+ 
+
+(b) Les derivades parcials a (0, 0) són
+
+Ox 2>0 z
+Of a. ¿(0,y)— F(0, 0)
+E
+
+=0,
+
+= (),
+
